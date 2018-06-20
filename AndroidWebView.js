@@ -385,6 +385,9 @@ class AndroidWebView extends Component {
         testID={this.props.testID}
         mediaPlaybackRequiresUserAction={this.props.mediaPlaybackRequiresUserAction}
         uploadEnabledAndroid={true}
+        mixedContentMode={this.props.mixedContentMode}
+        saveFormDataDisabled={this.props.saveFormDataDisabled}
+        urlPrefixesForDefaultIntent={this.props.urlPrefixesForDefaultIntent}
       />
     );
 
